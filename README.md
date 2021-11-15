@@ -5,7 +5,7 @@ A Python3 script that replaces identifier numbers with the corresponding group n
 
 ### Required input files
 
-This script requires the `pan_genome_reference.fa`, `gene_presence_absence.csv` and `gene_data.csv` files that are output from [Panaroo](https://gtonkinhill.github.io/panaroo/#/).
+This script requires the `pan_genome_reference.fa`, `gene_presence_absence.csv` and `gene_data.csv` files that are [output](https://gtonkinhill.github.io/panaroo/#/gettingstarted/output) from Panaroo.
 
 
 ### Usage

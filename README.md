@@ -1,11 +1,11 @@
 # identifier_to_group_name
 
-A Python3 script that replaces identifier numbers with the corresponding group name in the sequence descriptions of a `pan_genome_reference.fa` output file from [Panaroo](https://gtonkinhill.github.io/panaroo/#/) (versions prior to v1.1.2 when this issue was fixed within Panaroo).
+A Python3 script that replaces identifier numbers with the corresponding group name as the sequence descriptions of a `pan_genome_reference.fa` output file from [Panaroo](https://gtonkinhill.github.io/panaroo/#/) (only applicable to Panaroo versions prior to v1.1.2 when this issue was resolved in an update).
 
 
 ### Required input files
 
-Script takes the `pan_genome_reference.fa`, `gene_presence_absence.csv` and `gene_data.csv` Panaroo output files.
+This script requires the `pan_genome_reference.fa`, `gene_presence_absence.csv` and `gene_data.csv` files that are output from [Panaroo](https://gtonkinhill.github.io/panaroo/#/).
 
 
 ### Usage

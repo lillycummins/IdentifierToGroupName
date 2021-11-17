@@ -4,12 +4,12 @@
 Created on Thu Apr 15 10:43:31 2021
 
 @author: lillycummins
-"""
 
-#Motive: given a pan_genome_reference.fa file with numerical identifiers as headers, 
-#go into the corresponding gene_data.csv to retrieve the unique geneID relating to a numerical identifier
-#to then search for that gene ID in the gene_presence_absence.csv to find the appropriate 
-#group name to replace the numerical identifier with.
+Motive: given a pan_genome_reference.fa file with numerical identifiers as headers, 
+go into the corresponding gene_data.csv to retrieve the unique geneID relating to a numerical identifier
+to search for that gene ID in the gene_presence_absence.csv to find the appropriate 
+group name to replace the numerical identifier with.
+"""
 
 import argparse
 import os

@@ -18,7 +18,7 @@ import csv
 import subprocess
 import sys
 
-parser = argparse.ArgumentParser('Replaces numeric identifier with group name.')
+parser = argparse.ArgumentParser(description='Replaces numeric identifiers with group names.')
 parser.add_argument("--reference", "-i", type=str, required=True) #pan_ref file with numerical identifiers
 parser.add_argument("--matrix", "-m", type=str, required=True) #gene p/a matrix
 parser.add_argument("--gene", "-g", type=str, required=True) #gene_data file

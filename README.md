@@ -11,8 +11,3 @@ This script requires the `pan_genome_reference.fa`, `gene_presence_absence.csv` 
 ### Usage
 
 `identifier_to_group_name.py -i pan_genome_ref.fa -m gene_presence_absence.csv -g gene_data.csv -o output`
-
-
-```python
-
-```
